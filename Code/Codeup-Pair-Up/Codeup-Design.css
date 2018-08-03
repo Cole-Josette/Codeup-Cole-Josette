@@ -1,0 +1,50 @@
+
+.head-style {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+
+}
+
+
+
+.color-icons {
+    height: 105px;
+    width: 105px;
+    margin: 20px;
+    display: inline-block;
+    border: 5px solid white;
+}
+
+.icon-text {
+    margin: 30px;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #FFF;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 38px;
+
+}
+
+
+#design {
+
+}
+
+#develop {
+
+}
+
+#support {
+
+}
+
+#host {
+
+}
+
+.work-imgs img{
+    width: 100%;
+    border: 2px solid grey;
+}
