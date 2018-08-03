@@ -5,7 +5,9 @@
 
 }
 
-
+.color-icons-group {
+    margin-left: 200px;
+}
 
 .color-icons {
     height: 105px;
@@ -28,23 +30,43 @@
 }
 
 
-#design {
+.design {
+    background-color: #e6563B;
+}
+
+.develop {
+    background-color: #EB9D3A;
 
 }
 
-#develop {
-
+.support {
+    background-color: #7CB06C;
 }
 
-#support {
-
-}
-
-#host {
-
+.host {
+    background-color: #00aba9;
 }
 
 .work-imgs img{
     width: 100%;
     border: 2px solid grey;
+}
+
+.color-icons-s {
+    height: 18px;
+    width: 18px;
+    margin: 20px;
+    display: inline-block;
+
+}
+
+.icon-text-s {
+    text-align: center;
+    padding-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section ul li {
+    list-style-type: none;
 }
