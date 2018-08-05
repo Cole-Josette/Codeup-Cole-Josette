@@ -1,12 +1,11 @@
-
-.head-style {
-    font-family: 'Anton', sans-serif;
-    letter-spacing: 1px;
-
+body {
+    font-family: 'Abel', sans-serif;
 }
 
+
 .color-icons-group {
-    margin-left: 200px;
+    /*margin-left: 200px;*/
+
 }
 
 .color-icons {
@@ -29,6 +28,45 @@
 
 }
 
+.head-style {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+}
+
+.h1 {
+    font-size: 64px;
+
+}
+
+.h2 {
+    font-size: 48px;
+
+}
+
+.h3 {
+    font-size: 40px;
+
+}
+
+.h4 {
+    font-size: 32px;
+
+}
+
+.h5 {
+    font-size: 28px;
+
+}
+
+p {
+
+}
+
+.content-heading {
+
+}
 
 .design {
     background-color: #e6563B;
@@ -47,15 +85,23 @@
     background-color: #00aba9;
 }
 
+
 .work-imgs img{
     width: 100%;
-    border: 2px solid grey;
+    border-radius: 5px;
+    border: 8px solid #eeeeee;
+}
+
+.img-labels {
+    text-transform: uppercase;
+    font-family: 'Abel', sans-serif;
+
 }
 
 .color-icons-s {
-    height: 18px;
-    width: 18px;
-    margin: 20px;
+    height: 22px;
+    width: 22px;
+    margin: 5px;
     display: inline-block;
 
 }
@@ -67,6 +113,31 @@
     margin-right: auto;
 }
 
+section ul {
+    padding-left: 0px;
+}
+
 section ul li {
     list-style-type: none;
+    margin: 30px;
+    margin-left: 0px;
+
+}
+
+.the-last img {
+    width: 55px;
+    height: 55px;
+    float: left;
+    border: 2px solid lightgray;
+    margin: 10px;
+    margin-top: 0px;
+}
+
+
+#img3 {
+    height: 238px;
+}
+
+.small-icons-group {
+    /*float: right;*/
 }

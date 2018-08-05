@@ -16,7 +16,7 @@
 
 
 <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top  mt-5">
-    <a class="navbar-brand" href="#"> <img src="logo.png" width="105px" height="105px"
+    <a class="navbar-brand" href="#"> <img src="logo.png" width="50px" height="50px"
                                            class="d-inline-block
             align-top" alt="logo">codeup design</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -26,7 +26,7 @@
 
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ">
+        <ul class="navbar-nav ml-auto mr-5">
             <li class="nav-item">
                 <a class="nav-link" href="#"> SERVICES</a>
             </li>
@@ -47,15 +47,15 @@
 
 </nav>
 
-<!---Heading with icons -->
-<div class="container">
-    <!--header headings-->
-    <h1 class="display-1 text-center">VISUAL DESIGN & WEB DEVOLOPMENT</h1>
+<!---Jumbotron plus large icons -->
+<div class="container mt-5">
+    <!--jumbo headings-->
+    <h1 class="display-1 text-center head-style h1">Visual Design & Web Development</h1>
 
-    <h5 class="display-2 text-center"> FROM PARK CITY, UTAH </h5>
+    <h5 class="display-2 text-center head-style h3">From Park City, Utah</h5>
 
-    <!--icon images-->
-    <div class="color-icons-group d-block">
+    <!--large icons-->
+    <div class="color-icons-group d-block text-center">
         <div class="rounded-circle color-icons design">
             <h3 class="icon-text head-style"> design </h3>
         </div>
@@ -69,79 +69,151 @@
             <h3 class="icon-text head-style"> host </h3>
         </div>
     </div>
+    <!--horizontal line w/ bootstrap styling-->
     <hr class="my-4">
-</div>
-<!--main content column-->
+</div> <!-- end jumbotron -->
+
+
+<!--main content outer container -->
 <main class="container">
 
     <!--content headings-->
-    <div class="row">
+    <div class="row content-heading">
+
+        <!--main content heading-->
         <div class="col-8">
             <p>SELECTED WORK</p>
         </div>
 
-
+        <!--side section heading -->
         <div class="col-4">
             <p>THE LAST</p>
         </div>
     </div>
 
     <div class="row ">
-        <!--column for main content-->
+        <!--main section, selected work -->
         <div class="col-8">
 
             <!--image rows-->
-            <div class="row work-imgs">
+            <div class="row work-imgs mt-4">
                 <!--image begin-->
                 <div class="col-6">
-                    <img src="apple-ipad.jpg" alt="">
-                    FEATURED PROJECT
+                    <img src="apple-ipad.jpg" alt="Apple Ipad Project" id="img1">
+                    <!--project name - featured project as placeholder-->
+                    <label for="img1" class="img-labels">Featured Project</label>
+                    <!-- small icons- div + text-->
+                    <div class="rounded-circle color-icons-s develop">
+                        <div class=".icon-text-s">D</div>
+                    </div>
+                    <div class="rounded-circle color-icons-s develop">
+                        <div class=".icon-text-s">D</div>
+                    </div>
+                    <div class="rounded-circle color-icons-s develop">
+                        <div class=".icon-text-s">D</div>
+                    </div>
+                    <div class="rounded-circle color-icons-s develop">
+                        <div class=".icon-text-s">D</div>
+                    </div>
+
+                </div>
+                <!--image end-->
+                <!--image begin-->
+                <div class="col-6">
+                    <img src="macbook.jpg" alt="Macbook Project" id="img2">
+                    <label for="img2" class="img-labels">Featured Project</label>
+                    <!-- small icons- div + text-->
+                    <div class="rounded-circle color-icons-s develop">
+                        <div class=".icon-text-s">D</div>
+                    </div>
+                    <div class="rounded-circle color-icons-s develop">
+                        <div class=".icon-text-s">D</div>
+                    </div>
+                    <div class="rounded-circle color-icons-s develop">
+                        <div class=".icon-text-s">D</div>
+                    </div>
                     <div class="rounded-circle color-icons-s develop">
                         <div class=".icon-text-s">D</div>
                     </div>
                 </div>
                 <!--image end-->
-                <!--image begin-->
-                <div class="col-6"><img src="macbook.jpg" alt=""></div>
-            </div>
-            <!--image end-->
+            </div> <!--end second row-->
+
+
             <!--image row 2 being-->
-            <div class="row work-imgs">
+            <div class="row work-imgs mt-5">
                 <!--image 3-->
-                <div class="col-6"><img src="man.jpg" alt=""></div>
-                <!--image 4-->
-                <div class="col-6"><img src="security.jpg" alt=""></div>
-            </div>
-            <!--end main content column-->
-        </div>
-        <div class="col-4 Head-style">
-            <section>
-
-                <ul>
-
-                    <li><img src="mobile-phone.jpg"><h4 class="head-style">THE ADMIN BAR AND ABSOLUTE POSITIONING</h4>
-                    </li>
-                    <li><img src="head.jpg"><h4 class="head-style">NIBBLER AWESOME WEBISTE TESTING</h4></li>
-                    <li><img src="ipad.jpg"><h4 class="head-style">HOW TO GET GOOGLE TO LIKE YOU</h4></li>
-                </ul>
-                <div class="row">
-                    <i class="fab fa-twitter" style="color: #1dcaff"></i>
-                    <h5>Last Tweet</h5>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias aliquam, aspernatur aut
-                        cupiditate
-                        deleniti dignissimos dolor eligendi exercitationem ipsam labore libero nam omnis perferendis
-                        placeat repellendus rerum velit veniam.
-
-                    </p>
+                <div class="col-6"><img src="man.jpg" alt="Man Project" id="img3">
+                    <label for="img3" class="img-labels">Featured Project</label>
+                    <!-- small icons- div + text-->
+                    <div class="rounded-circle color-icons-s develop">
+                        <div class=".icon-text-s">D</div>
+                    </div>
+                    <div class="rounded-circle color-icons-s develop">
+                        <div class=".icon-text-s">D</div>
+                    </div>
+                    <div class="rounded-circle color-icons-s develop">
+                        <div class=".icon-text-s">D</div>
+                    </div>
+                    <div class="rounded-circle color-icons-s develop">
+                        <div class=".icon-text-s">D</div>
+                    </div>
                 </div>
 
-            </section>
-        </div>
-        <!--end second row on page-->
+                <!--image 4-->
+                <div class="col-6">
+                    <img src="security.jpg" alt="Security Project" id="img4">
+                    <label for="img4" class="img-labels">Featured Project</label>
+                    <!-- small icons- div + text-->
+                    <div class="d-inline-block text-center small-icons-group float-right">
+                        <div class="rounded-circle color-icons-s develop inline">
+                            <div class=".icon-text-s head-style">D</div>
+                        </div>
+                        <div class="rounded-circle color-icons-s develop inline">
+                            <div class=".icon-text-s head-style">D</div>
+                        </div>
+                        <div class="rounded-circle color-icons-s develop inline">
+                            <div class=".icon-text-s head-style">D</div>
+                        </div>
+                        <div class="rounded-circle color-icons-s develop inline">
+                            <div class=".icon-text-s head-style">D</div>
+                        </div>
+                    </div>
+                </div> <!--close column for img 4-->
+
+            </div> <!--close second img row-->
+
+        </div>   <!--end main content column-->
+
+        <!--side section, The Last-->
+        <section class="col-4 Head-style the-last">
+            <!--list of links, recent posts-->
+            <ul>
+                <li><img src="mobile-phone.jpg"><h4 class="head-style">THE ADMIN BAR AND ABSOLUTE POSITIONING</h4>
+                </li>
+                <li><img src="head.jpg"><h4 class="head-style">NIBBLER AWESOME WEBISTE TESTING</h4></li>
+                <li><img src="ipad.jpg"><h4 class="head-style">HOW TO GET GOOGLE TO LIKE YOU</h4></li>
+            </ul>
+
+            <!--next row, social -->
+            <div class="row m-2 mt-5">
+                <i class="fab fa-twitter" style="color: #1dcaff"></i>
+                <h5 class="ml-2 text-uppercase">Last Tweet</h5>
+                <p class="m-2">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias aliquam, aspernatur aut
+                    cupiditate
+                    deleniti dignissimos dolor eligendi exercitationem ipsam labore libero nam omnis perferendis
+                    placeat repellendus rerum velit veniam.
+
+                </p>
+            </div>
+
+        </section>
+    </div>
+    <!--end second row on page-->
     </div>
     </div>
-    </div>
+
 
 </main>
 
