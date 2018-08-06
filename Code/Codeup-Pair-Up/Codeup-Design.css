@@ -180,7 +180,7 @@ header, .full-width {
     float: left;
     position: absolute;
     top: 25px;
-    left: 15%;
+    left: 13%;
     margin-left: -50px;
 }
 
@@ -203,4 +203,12 @@ header, .full-width {
 
 navbar {
     max-height: 50px;
+}
+
+.links-md {
+    z-index: 3000;
+    position: absolute;
+    top: 70px;
+    display: flex;
+    left: 13%;
 }
