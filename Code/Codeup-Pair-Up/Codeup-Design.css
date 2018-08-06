@@ -163,6 +163,7 @@ header, .full-width {
     margin: 0 auto;
     padding: 0.25em 0.625em;
     position:relative;
+    z-index: -1;
 }
 
 #logo-center {
@@ -171,6 +172,15 @@ header, .full-width {
     position: absolute;
     top: 25px;
     left: 50%;
+    margin-left: -50px;
+}
+
+#logo-left {
+    z-index: 3000;
+    float: left;
+    position: absolute;
+    top: 25px;
+    left: 15%;
     margin-left: -50px;
 }
 
