@@ -178,4 +178,19 @@ header, .full-width {
     z-index: 3000;
     position: absolute;
     top: 70px;
+    display: flex;
+    left: 13%;
+}
+
+.rt {
+    left: 65%;
+}
+
+.lt {
+
+    margin-right: 20px;
+}
+
+navbar {
+    max-height: 50px;
 }

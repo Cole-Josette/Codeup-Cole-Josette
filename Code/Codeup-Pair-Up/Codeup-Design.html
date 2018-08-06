@@ -16,48 +16,78 @@
 <body class="bg-light">
 
 <!--second logo - column hidden on lg, centered-->
-<div class="col-12 d-block mx-auto text-center pt-2">
+<div class="col-12 d-block mx-auto text-center pt-2 d-md-none">
     <img src="logo.png" width="105px" height="105px" class="text-center" alt="logo2" id="logo-center">
 </div>
 
 <!--top white bar for xs, s -->
-<header class="mb-4">
+<header class="mb-4 d-md-none">
     <div class="wrap">
     </div>
 </header>
 
 
 <!--nav bar with bootstrap styling-->
-<nav class="navbar d-none navbar-expand-lg navbar-light bg-white sticky-top  mt-5">
-    <!--row to hold all nav bar items -->
-    <div class="row">
-        <!--first image - column hidden when small-->
-        <div class="d-none d-md-inline-block align-top">
-            <img src="logo.png" width="50px" height="50px" class="" alt="logo">
-        </div>
 
-        <!--left aligned brand name - code up design-->
-        <a class="navbar-brand d-none d-md-inline" href="#">codeup design</a>
 
-        <!--right side links-->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto mr-5">
-                <li class="nav-item">
-                    <a class="nav-link" href="#"> SERVICES</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">WORK</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">BLOG</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">CONTACT</a>
-                </li>
-            </ul>
-        </div>
+<nav class="navbar navbar-expand-lg navbar-light bg-white mt-3 row d-none d-md-block">
+    <div class="d-none d-md-inline-block align-top">
+    <img src="logo.png" width="105px" height="105px" class="" alt="logo">
+    </div>
+    <a class="navbar-brand" href="#">Navbar</a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+        </ul>
     </div>
 </nav>
+
+
+
+
+
+
+
+
+
+<!--<nav class="navbar d-none navbar-expand-lg navbar-light bg-white sticky-top  mt-5">-->
+    <!--&lt;!&ndash;row to hold all nav bar items &ndash;&gt;-->
+    <!--<div class="row">-->
+        <!--&lt;!&ndash;first image - column hidden when small&ndash;&gt;-->
+        <!--<div class="d-none d-md-inline-block align-top">-->
+            <!--<img src="logo.png" width="50px" height="50px" class="" alt="logo">-->
+        <!--</div>-->
+
+        <!--&lt;!&ndash;left aligned brand name - code up design&ndash;&gt;-->
+        <!--<a class="navbar-brand d-none d-md-inline" href="#">codeup design</a>-->
+
+        <!--&lt;!&ndash;right side links&ndash;&gt;-->
+        <!--<div class="collapse navbar-collapse" id="navbarSupportedContent">-->
+            <!--<ul class="navbar-nav ml-auto mr-5">-->
+                <!--<li class="nav-item">-->
+                    <!--<a class="nav-link" href="#"> SERVICES</a>-->
+                <!--</li>-->
+                <!--<li class="nav-item">-->
+                    <!--<a class="nav-link" href="#">WORK</a>-->
+                <!--</li>-->
+                <!--<li class="nav-item">-->
+                    <!--<a class="nav-link" href="#">BLOG</a>-->
+                <!--</li>-->
+                <!--<li class="nav-item">-->
+                    <!--<a class="nav-link" href="#">CONTACT</a>-->
+                <!--</li>-->
+            <!--</ul>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</nav>-->
 
 <!--brand name & "nav" for xs & sm screens, centered, below nav -->
 <!--header-->
@@ -75,11 +105,14 @@
 
 
 
-<div class="row text-center ">
-    <div class="col text-uppercase p-0 links-sm"><a>Services</a></div>
-    <div class="col text-uppercase p-0 links-sm"><a>Work</a></div>
-    <div class="col text-uppercase p-0 links-sm"><a>Blog</a></div>
-    <div class="col text-uppercase p-0 links-sm"><a>Contact</a></div>
+<!--row for nav on sm -->
+<div class="row align-center text-center justify-content-center links-sm lf d-none d-sm-flex d-md-none">
+    <div class="col text-uppercase pr-4"><a>Services</a></div>
+    <div class="col text-uppercase"><a>Work</a></div>
+</div>
+<div class="row align-center text-center justify-content-center links-sm rt d-none d-sm-flex d-md-none">
+    <div class="col text-uppercase pr-4"><a>Blog</a></div>
+    <div class="col text-uppercase pl-4"><a>Contact</a></div>
 </div>
 
 
@@ -112,24 +145,24 @@
     <!--large icons outer group-->
     <div class="color-icons-group d-block text-center row">
         <!--first two icons, design & develop-->
-        <div class="col-6 col-sm-2 d-inline">
+        <div class="col-6 col-sm-3 d-inline">
             <div class="rounded-circle color-icons design">
                 <h3 class="icon-text head-style"> design </h3>
             </div>
         </div>
-        <div class="col-6 col-sm-2 d-inline">
+        <div class="col-6 col-sm-3 d-inline">
             <div class="rounded-circle color-icons develop">
                 <h3 class="icon-text head-style"> develop </h3>
             </div>
         </div>
 
         <!--second two icons, support & host-->
-        <div class="col-6 col-sm-2 d-inline">
+        <div class="col-6 col-sm-3 d-inline">
             <div class="rounded-circle color-icons support">
                 <h3 class="icon-text head-style">support</h3>
             </div>
         </div>
-        <div class="col-6 col-sm-2 d-inline">
+        <div class="col-6 col-sm-3 d-inline">
             <div class="rounded-circle color-icons host">
                 <h3 class="icon-text head-style"> host </h3>
             </div>
