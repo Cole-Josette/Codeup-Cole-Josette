@@ -9,9 +9,9 @@ body {
 }
 
 .color-icons {
-    height: 150px;
-    width: 150px;
-    margin: 5px;
+    height: 140px;
+    width: 140px;
+    /*margin: 2px;*/
     display: inline-block;
     border: 7px solid white;
 }
@@ -24,7 +24,7 @@ body {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40px;
+    margin-top: 50px;
 
 }
 
@@ -99,9 +99,9 @@ p {
 }
 
 .color-icons-s {
-    height: 22px;
-    width: 22px;
-    margin: 5px;
+    height: 30px;
+    width: 30px;
+    margin: 2px;
     display: inline-block;
 
 }
@@ -111,6 +111,7 @@ p {
     padding-left: 10px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 5px;
 }
 
 section ul {
@@ -135,11 +136,46 @@ section ul li {
 
 
 #img3 {
-    /*height: 238px;*/
+    height: 82%;
 }
 
 .small-icons-group {
     /*float: right;*/
 }
 
+label {
+    font-size: 18px;
+}
 
+
+header, .full-width {
+    width: 100%;
+    background: #ffffff;
+    height: 60px;
+    float: left;
+    z-index: -1;
+    margin-top: 40px;
+
+}
+.wrap {
+    width: 80%;
+    max-width: 24em;
+    margin: 0 auto;
+    padding: 0.25em 0.625em;
+    position:relative;
+}
+
+#logo-center {
+    z-index: 3000;
+    float: left;
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    margin-left: -50px;
+}
+
+.links-sm {
+    z-index: 3000;
+    position: absolute;
+    top: 70px;
+}

@@ -12,68 +12,127 @@
 
 </head>
 
+<!--easy going background color-->
 <body class="bg-light">
 
-<!--class="bg-light"-->
+<!--second logo - column hidden on lg, centered-->
+<div class="col-12 d-block mx-auto text-center pt-2">
+    <img src="logo.png" width="105px" height="105px" class="text-center" alt="logo2" id="logo-center">
+</div>
 
-
-<!--nav bar-->
-<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top  mt-5">
-    <a class="navbar-brand" href="#"> <img src="logo.png" width="50px" height="50px"
-                                           class="d-inline-block
-            align-top" alt="logo">codeup design</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-<!--right side links-->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto mr-5">
-            <li class="nav-item">
-                <a class="nav-link" href="#"> SERVICES</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">WORK</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">BLOG</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT</a>
-            </li>
-
-        </ul>
-
+<!--top white bar for xs, s -->
+<header class="mb-4">
+    <div class="wrap">
     </div>
+</header>
 
 
+<!--nav bar with bootstrap styling-->
+<nav class="navbar d-none navbar-expand-lg navbar-light bg-white sticky-top  mt-5">
+    <!--row to hold all nav bar items -->
+    <div class="row">
+        <!--first image - column hidden when small-->
+        <div class="d-none d-md-inline-block align-top">
+            <img src="logo.png" width="50px" height="50px" class="" alt="logo">
+        </div>
+
+        <!--left aligned brand name - code up design-->
+        <a class="navbar-brand d-none d-md-inline" href="#">codeup design</a>
+
+        <!--right side links-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mr-5">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"> SERVICES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">WORK</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">BLOG</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </nav>
+
+<!--brand name & "nav" for xs & sm screens, centered, below nav -->
+<!--header-->
+<h2 class="text-center mt-4 d-md-none">codeup design</h2>
+
+<!--row for links on xs-->
+<div class="container mx-auto d-sm-none w-75">
+<div class="row text-center">
+    <div class="col text-uppercase p-0"><a>Services</a></div>
+    <div class="col text-uppercase p-0"><a>Work</a></div>
+    <div class="col text-uppercase p-0"><a>Blog</a></div>
+    <div class="col text-uppercase p-0"><a>Contact</a></div>
+    </div>
+</div>
+
+
+
+<div class="row text-center ">
+    <div class="col text-uppercase p-0 links-sm"><a>Services</a></div>
+    <div class="col text-uppercase p-0 links-sm"><a>Work</a></div>
+    <div class="col text-uppercase p-0 links-sm"><a>Blog</a></div>
+    <div class="col text-uppercase p-0 links-sm"><a>Contact</a></div>
+</div>
+
+
+
+
+<!--<div class="container d-none d-sm-block d-md-none links-sm">-->
+    <!--<div class="row text-center ">-->
+        <!--&lt;!&ndash;<div class="col-12 w-75">&ndash;&gt;-->
+        <!--<div class="col-2"></div>-->
+        <!--<div class="col-2 text-uppercase p-1"><a>Services</a></div>-->
+        <!--<div class="col text-uppercase p-1"<a>Work</a></div>-->
+        <!--<div class="col-3"></div>-->
+        <!--<div class="col text-uppercase p-1"><a>Blog</a></div>-->
+        <!--<div class="col text-uppercase p-1"><a>Contact</a></div>-->
+        <!--<div class="col-3"></div>-->
+        <!--&lt;!&ndash;</div>&ndash;&gt;-->
+    <!--</div>-->
+<!--</div>-->
+
+
+
 <!--<h4 class="text-center d-sm-inline d-md-none"> </h4>-->
 <!---Jumbotron plus large icons -->
 <div class="container mt-5">
     <!--jumbo headings-->
-    <h1 class="display-1 text-center head-style h1">Visual Design & Web Development</h1>
+    <h1 class="display-1 text-center head-style h2">Visual Design & Web Development</h1>
 
-    <h5 class="display-2 text-center head-style h3">From Park City, Utah</h5>
+    <h5 class="display-2 text-center head-style h4">From Park City, Utah</h5>
 
-    <!--large icons-->
-    <div class="color-icons-group d-block text-center">
-        <div class="col-12 col-md-6 d-md-inline">
-        <div class="rounded-circle color-icons design">
-            <h3 class="icon-text head-style"> design </h3>
+    <!--large icons outer group-->
+    <div class="color-icons-group d-block text-center row">
+        <!--first two icons, design & develop-->
+        <div class="col-6 col-sm-2 d-inline">
+            <div class="rounded-circle color-icons design">
+                <h3 class="icon-text head-style"> design </h3>
+            </div>
         </div>
-        <div class="rounded-circle color-icons develop">
-            <h3 class="icon-text head-style"> develop </h3>
+        <div class="col-6 col-sm-2 d-inline">
+            <div class="rounded-circle color-icons develop">
+                <h3 class="icon-text head-style"> develop </h3>
+            </div>
         </div>
+
+        <!--second two icons, support & host-->
+        <div class="col-6 col-sm-2 d-inline">
+            <div class="rounded-circle color-icons support">
+                <h3 class="icon-text head-style">support</h3>
+            </div>
         </div>
-        <div class="col-12 col-md-6 d-md-inline">
-        <div class="rounded-circle color-icons support">
-            <h3 class="icon-text head-style">support</h3>
-        </div>
-        <div class="rounded-circle color-icons host">
-            <h3 class="icon-text head-style"> host </h3>
-        </div>
+        <div class="col-6 col-sm-2 d-inline">
+            <div class="rounded-circle color-icons host">
+                <h3 class="icon-text head-style"> host </h3>
+            </div>
         </div>
     </div>
     <!--horizontal line w/ bootstrap styling-->
@@ -88,12 +147,12 @@
     <div class="row content-heading">
 
         <!--main content heading-->
-        <div class="col-12 col-lg-8 text-center text-md-left">
+        <div class="col-12 col-lg-8 text-center text-lg-left">
             <p>SELECTED WORK</p>
         </div>
 
         <!--side section heading -->
-        <div class="col-4 d-none d-md-inline-block">
+        <div class="col-4 d-none d-lg-inline-block">
             <p>THE LAST</p>
         </div>
     </div>
@@ -104,56 +163,58 @@
 
             <!--image rows-->
             <div class="row work-imgs mt-4">
-                <!--image begin-->
-                <div class="col-12 col-lg-6">
+                <!--image 1 begin-->
+                <div class="col-12 col-sm-6">
                     <img src="apple-ipad.jpg" alt="Apple Ipad Project" id="img1">
                     <!--project name - featured project as placeholder-->
-                    <label for="img1" class="img-labels">Featured Project</label>
+                    <label for="img1" class="img-labels pt-2">Featured Project</label>
                     <!-- small icons- div + text-->
-                    <div class="d-inline-block text-center small-icons-group float-right">
-                    <div class="rounded-circle color-icons-s design">
-                        <div class=".icon-text-s head-style">D</div>
-                    </div>
-                    <div class="rounded-circle color-icons-s develop">
-                        <div class=".icon-text-s head-style">D</div>
-                    </div>
-                    <div class="rounded-circle color-icons-s support">
-                        <div class=".icon-text-s head-style">S</div>
-                    </div>
-                    <div class="rounded-circle color-icons-s host">
-                        <div class=".icon-text-s head-style">H</div>
-                    </div>
+                    <div class="d-inline-block text-center small-icons-group float-right pt-1">
+                        <div class="rounded-circle color-icons-s design">
+                            <div class=".icon-text-s head-style pt-1">D</div>
+                        </div>
+                        <div class="rounded-circle color-icons-s develop">
+                            <div class=".icon-text-s head-style pt-1">D</div>
+                        </div>
+                        <div class="rounded-circle color-icons-s support">
+                            <div class=".icon-text-s head-style pt-1">S</div>
+                        </div>
+                        <div class="rounded-circle color-icons-s host">
+                            <div class=".icon-text-s head-style pt-1">H</div>
+                        </div>
                     </div>
                 </div>
-                <!--image end-->
-                <!--image begin-->
-                <div class="d-none col-lg-6">
+                <!--image 1 end-->
+
+                <!--image 2 begin-->
+                <div class="d-none d-sm-inline col-sm-6">
                     <img src="macbook.jpg" alt="Macbook Project" id="img2">
-                    <label for="img2" class="img-labels">Featured Project</label>
+                    <label for="img2" class="img-labels pt-2">Featured Project</label>
                     <!-- small icons- div + text-->
-                    <div class="d-inline-block text-center small-icons-group float-right">
-                    <div class="rounded-circle color-icons-s design">
-                        <div class=".icon-text-s head-style">D</div>
+                    <div class="d-inline-block text-center small-icons-group float-right pt-1">
+                        <div class="rounded-circle color-icons-s design">
+                            <div class=".icon-text-s head-style pt-1">D</div>
+                        </div>
+                        <div class="rounded-circle color-icons-s develop">
+                            <div class=".icon-text-s head-style pt-1">D</div>
+                        </div>
+                        <div class="rounded-circle color-icons-s support">
+                            <div class=".icon-text-s head-style pt-1">S</div>
+                        </div>
+                        <div class="rounded-circle color-icons-s host">
+                            <div class=".icon-text-s head-style pt-1">H</div>
+                        </div>
                     </div>
-                    <div class="rounded-circle color-icons-s develop">
-                        <div class=".icon-text-s head-style">D</div>
-                    </div>
-                    <div class="rounded-circle color-icons-s support">
-                        <div class=".icon-text-s head-style">S</div>
-                    </div>
-                    <div class="rounded-circle color-icons-s host">
-                        <div class=".icon-text-s head-style">H</div>
-                    </div>
-                </div>
                 </div>
                 <!--image end-->
             </div> <!--end second row-->
 
 
-            <!--image row 2 being-->
-            <div class="row work-imgs mt-5 d-none d-lg-block">
+            <!--image row 3 begin-->
+            <div class="row work-imgs mt-5">
                 <!--image 3-->
-                <div class="col-6"><img src="man.jpg" alt="Man Project" id="img3">
+                <div class="col-6  d-none d-sm-inline">
+                    <img src="man.jpg" alt="Man Project" id="img3">
                     <label for="img3" class="img-labels">Featured Project</label>
                     <!-- small icons- div + text-->
                     <div class="d-inline-block text-center small-icons-group float-right">
@@ -173,7 +234,7 @@
                 </div>
 
                 <!--image 4-->
-                <div class="col-6">
+                <div class="col-6  d-none d-sm-inline">
                     <img src="security.jpg" alt="Security Project" id="img4">
                     <label for="img4" class="img-labels">Featured Project</label>
                     <!-- small icons- div + text-->
@@ -198,7 +259,7 @@
         </div>   <!--end main content column-->
 
         <!--side section, The Last-->
-        <section class="col-4 Head-style the-last d-none d-md-inline-block">
+        <section class="col-4 Head-style the-last d-none d-lg-inline-block">
             <!--list of links, recent posts-->
             <ul>
                 <li><img src="mobile-phone.jpg"><h4 class="head-style">THE ADMIN BAR AND ABSOLUTE POSITIONING</h4>
@@ -216,10 +277,8 @@
                     cupiditate
                     deleniti dignissimos dolor eligendi exercitationem ipsam labore libero nam omnis perferendis
                     placeat repellendus rerum velit veniam.
-
                 </p>
             </div>
-
         </section>
     </div>
     <!--end second row on page-->
@@ -229,11 +288,6 @@
 
 </main>
 
-
-<!--side section column-->
-
-
-<!--social-->
 
 </body>
 </html>
